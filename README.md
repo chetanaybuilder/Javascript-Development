@@ -22,7 +22,7 @@ Calculates business profit based on user-provided revenue and cost.
 
 - HTML5
 - CSS3
-- JavaScript
+- JavaScript    
 
 ## JavaScript Concepts
 
