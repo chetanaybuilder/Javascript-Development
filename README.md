@@ -40,3 +40,30 @@ Calculates business profit based on user-provided revenue and cost.
 ## Status
 
 ✅ Day 01 — Completed
+
+JavaScript Day 02 — Lead Management
+
+A small Lead Management Dashboard built to practice JavaScript fundamentals and DOM manipulation.
+
+What I Practiced
+
+* Arrays & Objects
+* Loops & Functions
+* DOM Manipulation
+* Event Listeners
+* Forms & .value
+* .filter() & .splice()
+* Dynamic Lead Rendering
+* Modal Interaction
+
+Features
+
+* Add leads
+* Delete leads
+* Filter by status
+* Live lead statistics
+* Dynamic DOM rendering
+
+Tech: HTML · CSS · JavaScript
+
+Day 02 of my JavaScript learning journey.
