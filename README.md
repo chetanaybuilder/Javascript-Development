@@ -41,7 +41,7 @@ Calculates business profit based on user-provided revenue and cost.
 
 ✅ Day 01 — Completed
 
-JavaScript Day 02 — Lead Management
+JavaScript Day 02 — Lead Management Dashboard
 
 A small Lead Management Dashboard built to practice JavaScript fundamentals and DOM manipulation.
 
