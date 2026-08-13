@@ -1,69 +1,104 @@
-# Day 01 — Business Profit Calculator
+# JavaScript Development
 
-A simple business profit calculator built with HTML, CSS, and Vanilla JavaScript.
+A structured JavaScript learning repository focused on building small, practical projects while developing a strong foundation in JavaScript fundamentals.
 
-## Overview
+The approach is simple: **learn → build → debug → understand**.
 
-Calculates business profit based on user-provided revenue and cost.
+## 📚 Projects & Roadmap
 
-**Formula:**
+| Day | Project | Primary Focus |
+|---|---|---|
+| Day 1 | Business Profit Calculator | Variables, operators, functions |
+| Day 2 | Lead Management Flow | Arrays, objects, loops, DOM |
+| Day 3 | Mini Shopping Cart | Arrays, objects, DOM, calculations |
+| Day 4 | Roast Me App 🔥 | Events, Fetch API, Promises |
 
-`Profit = Revenue − Cost`
+---
 
-## Features
+## Day 1 — Business Profit Calculator
 
-- Revenue input
-- Cost input
-- Profit calculation
-- Dynamic result display
-- Client-side processing
+A small calculator built to practice JavaScript fundamentals and understand how functions and variables work together.
 
-## Tech Stack
+### Concepts Practiced
 
-- HTML5
-- CSS3
-- JavaScript    
-
-## JavaScript Concepts
-
+- `let` / `const`
 - Variables
-- `const`
+- Numbers
+- Operators
 - Functions
-- Parameters & arguments
+- Parameters
+- Arguments
 - `return`
-- Arithmetic operators
+- Function calls
+- `console.log()`
+
+---
+
+## Day 2 — Lead Management Flow
+
+A simple lead-management application focused on working with structured data and dynamically creating and updating HTML elements.
+
+### Concepts Practiced
+
+- Arrays
+- Objects
+- Loops
 - DOM manipulation
-- `.value`
+- `createElement()`
+- `textContent`
+- `appendChild()`
 - Event listeners
-- `.textContent`
+- Dynamic rendering
 
-## Status
+---
 
-✅ Day 01 — Completed
+## Day 3 — Mini Shopping Cart
 
-JavaScript Day 02 — Lead Management Dashboard
+A compact shopping-cart application built to practice working with product data and dynamically updating the interface.
 
-A small Lead Management Dashboard built to practice JavaScript fundamentals and DOM manipulation.
+### Concepts Practiced
 
-What I Practiced
+- Arrays
+- Objects
+- DOM manipulation
+- Dynamic rendering
+- Adding items
+- Updating cart data
+- Calculating totals
 
-* Arrays & Objects
-* Loops & Functions
-* DOM Manipulation
-* Event Listeners
-* Forms & .value
-* .filter() & .splice()
-* Dynamic Lead Rendering
-* Modal Interaction
+---
 
-Features
+## Day 4 — Roast Me App 🔥
 
-* Add leads
-* Delete leads
-* Filter by status
-* Live lead statistics
-* Dynamic DOM rendering
+A small API-powered application that fetches a random joke and displays it when the user clicks the **Roast Me** button.
 
-Tech: HTML · CSS · JavaScript
+### Concepts Practiced
 
-Day 02 of my JavaScript learning journey.
+- `addEventListener()`
+- Click events
+- `fetch()`
+- Promises
+- `.then()`
+- `.json()`
+- `.catch()`
+- DOM updates
+- Working with API responses
+
+### API Flow
+
+```text
+User clicks "Roast Me"
+        ↓
+Event listener detects the click
+        ↓
+fetch() requests data from the API
+        ↓
+Promise waits for the response
+        ↓
+.then() handles the response
+        ↓
+.json() converts the response into JavaScript data
+        ↓
+Joke is displayed in the DOM
+        ↓
+.catch() handles errors
