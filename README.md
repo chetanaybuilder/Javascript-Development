@@ -68,7 +68,7 @@ A compact shopping-cart application built to practice working with product data 
 
 ---
 
-## Day 4 — Roast Me App 🔥
+## Day 4 — Roasting app 🔥
 
 A small API-powered application that fetches a random joke and displays it when the user clicks the **Roast Me** button.
 
