@@ -1,5 +1,3 @@
-
-
 const roastButton = document.getElementById("roastButton");
 roastButton.addEventListener("click", function() {
     fetch("https://v2.jokeapi.dev/joke/Any?safe-mode&type=single")
