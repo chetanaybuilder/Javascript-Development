@@ -90,21 +90,47 @@ A small API-powered application that fetches a random joke and displays it when 
 - DOM updates
 - Working with API responses
 
-### API Flow
 
-```text
-User clicks "Roast Me"
-        ↓
-Event listener detects the click
-        ↓
-fetch() requests data from the API
-        ↓
-Promise waits for the response
-        ↓
-.then() handles the response
-        ↓
-.json() converts the response into JavaScript data
-        ↓
-Joke is displayed in the DOM
-        ↓
-.catch() handles errors
+Day 5 — Interactive Live Quiz 🧠
+
+A live 10-question quiz application powered by the Open Trivia Database API.
+
+The application fetches questions from the API, displays them one at a time, checks the user’s answers, tracks the score, and shows the final result after the quiz is completed.
+
+Concepts Practiced
+
+* fetch()
+* APIs
+* async / await
+* JSON
+* DOM manipulation
+* Event listeners
+* Arrays
+* Objects
+* Functions
+* if / else
+* Math.random()
+* Dynamic element creation
+* Score tracking
+
+Day 6 — Rock Paper Scissors 🎮
+
+A small interactive Rock Paper Scissors game where the player chooses Rock, Paper, or Scissors and plays against a randomly selected computer choice.
+
+The computer uses a Promise to simulate a short thinking delay before revealing its choice. The game then compares both choices and displays whether the player wins, loses, or draws.
+
+Concepts Practiced
+
+* Arrow functions
+* Template literals
+* Promises
+* .then()
+* .catch()
+* Arrays
+* Functions
+* DOM manipulation
+* Event listeners
+* Math.random()
+* Conditional logic
+
+
