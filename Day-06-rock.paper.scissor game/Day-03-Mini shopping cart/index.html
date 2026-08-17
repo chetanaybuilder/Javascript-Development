@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Main container for product listing and cart summary -->
+    <div class="container">
+
+        <h1>🛒 Mini Cart</h1>
+
+        <!-- Product grid with add-to-cart buttons -->
+        <div class="products">
+
+            <div class="product">
+                <h2>Cookies</h2>
+                <p>₹40</p>
+                <button class="add-btn">Add</button>
+            </div>
+
+            <div class="product">
+                <h2>Oats</h2>
+                <p>₹80</p>
+                <button class="add-btn">Add</button>
+            </div>
+
+        </div>
+
+        <!-- Shopping cart summary section -->
+        <div class="cart">
+            <h2>Cart</h2>
+
+            <p>Items: <span id="cart-count">0</span></p>
+            <p>Total: ₹<span id="cart-total">0</span></p>
+
+            <div id="cart-items"></div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

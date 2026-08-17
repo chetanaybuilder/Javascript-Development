@@ -1,0 +1,87 @@
+/* Global reset and box sizing */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Page background and base typography */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    padding: 40px;
+}
+
+/* Centered layout container */
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Page heading styling */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Product cards grid layout */
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* Individual product card styling */
+.product {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.product h2 {
+    margin-bottom: 10px;
+}
+
+.product p {
+    margin-bottom: 15px;
+}
+
+/* Button base reset */
+button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Add button appearance */
+.add-btn {
+    background: black;
+    color: white;
+}
+
+/* Cart summary panel */
+.cart {
+    background: white;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.cart h2 {
+    margin-bottom: 15px;
+}
+
+/* Cart item container spacing */
+#cart-items {
+    margin-top: 20px;
+}
+
+/* Individual cart item layout */
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
