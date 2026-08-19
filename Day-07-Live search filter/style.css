@@ -1,0 +1,79 @@
+/* Base reset and page styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #222;
+    min-height: 100vh;
+}
+
+main {
+    max-width: 700px;
+    margin: 60px auto 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* Search input and button styles */
+#searchInput {
+    display: block;
+    width: 600px;
+    max-width: 90%;
+    margin: 0 auto 15px;
+    padding: 14px 18px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+#searchInput:focus {
+    border-color: #333;
+}
+
+#btn {
+    display: block;
+    margin: 0 auto 25px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    background: #222;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background: #444;
+}
+
+/* Result list styling */
+#listcontainer {
+    width: 600px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+#listcontainer li {
+    background: white;
+    padding: 15px 18px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
