@@ -1,0 +1,127 @@
+/* =========================================
+   Global Styles
+   ========================================= */
+
+/* Reset default browser spacing and sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base page layout and typography */
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #eef2f7;
+}
+
+
+/* =========================================
+   Main Application Container
+   ========================================= */
+
+.container {
+    width: 90%;
+    max-width: 450px;
+
+    padding: 30px;
+
+    background: white;
+    border-radius: 20px;
+
+    text-align: center;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+
+/* =========================================
+   Application Heading
+   ========================================= */
+
+h1 {
+    margin-bottom: 25px;
+    font-size: 32px;
+}
+
+
+/* =========================================
+   Search Section
+   ========================================= */
+
+.search-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+
+/* City Search Input */
+#cityinput {
+    flex: 1;
+
+    padding: 12px;
+
+    border: 1px solid #ccc;
+    border-radius: 10px;
+
+    font-size: 16px;
+    outline: none;
+}
+
+
+/* Input focus state */
+#cityinput:focus {
+    border-color: #555;
+}
+
+
+/* Weather Search Button */
+#Btn {
+    padding: 12px 18px;
+
+    border: none;
+    border-radius: 10px;
+
+    background: #222;
+    color: white;
+
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+/* Button hover interaction */
+#Btn:hover {
+    opacity: 0.8;
+}
+
+
+/* =========================================
+   Weather Information
+   ========================================= */
+
+/* Container for dynamically generated weather data */
+#weatherinfo {
+    margin-top: 20px;
+}
+
+
+/* City name displayed in weather results */
+#weatherinfo h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+
+/* Individual weather statistics */
+#weatherinfo p {
+    font-size: 18px;
+    margin: 8px 0;
+}
